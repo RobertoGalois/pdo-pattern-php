@@ -1,3 +1,5 @@
+<?php
+
 try {
 	$bdd = new PDO('mysql:host=localhost;dbname=pataprout;charset=utf8', 'root', 'password');
 } catch (Exception $e) {
